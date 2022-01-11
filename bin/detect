@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "scalingo-traefik-buildpack"
+exit 0
