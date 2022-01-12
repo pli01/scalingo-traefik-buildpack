@@ -32,7 +32,6 @@ TRAEFIK_BINARY="$CACHE_DIR/traefik"
 
 BIN_DIR=$(cd $(dirname $0); pwd)
 cd $BUILD_DIR
-ls -l
 
 if [ -f $TRAEFIK_BINARY ]; then
   echo "-----> Using traefik binary from cache"
